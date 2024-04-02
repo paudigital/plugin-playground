@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2404ed19e6132ce65a58e3def354f26",
+    "content-hash": "47a857c71600789c1cc24bf2b8522337",
     "packages": [
         {
             "name": "amphp/amp",
@@ -2710,16 +2710,10 @@
         {
             "name": "craftpulse/craft-colour-swatches",
             "version": "4.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftpulse/craft-colour-swatches.git",
-                "reference": "e42b9da2d407e38463b90413eef9c8047aa9ddab"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/craftpulse/craft-colour-swatches/zipball/e42b9da2d407e38463b90413eef9c8047aa9ddab",
-                "reference": "e42b9da2d407e38463b90413eef9c8047aa9ddab",
-                "shasum": ""
+                "type": "path",
+                "url": "/Users/Shared/dev/craft-plugins/v4/craft-colour-swatches",
+                "reference": "ca87ed0620cc8dd13d0b0cf9911fa1007a8de812"
             },
             "require": {
                 "craftcms/cms": "^4.0.0",
@@ -2733,10 +2727,10 @@
                 "name": "Colour Swatches",
                 "handle": "colour-swatches",
                 "description": "Adding custom selectable colour palettes, gradients, classes and more to your field types.",
-                "developer": "percipiolondon",
-                "developerUrl": "https://percipio.london",
-                "documentationUrl": "https://github.com/percipioglobal/craft-colour-swatches/blob/v4/README.md",
-                "changelogUrl": "https://raw.githubusercontent.com/percipioglobal/craft-colour-swatches/v4/CHANGELOG.md",
+                "developer": "craftpulse",
+                "developerUrl": "https://github.com/craftpulse",
+                "documentationUrl": "https://github.com/craftpulse/craft-colour-swatches/blob/v4/README.md",
+                "changelogUrl": "https://github.com/craftpulse/craft-colour-swatches/blob/v4/CHANGELOG.md",
                 "class": "percipiolondon\\colourswatches\\ColourSwatches"
             },
             "autoload": {
@@ -2744,35 +2738,41 @@
                     "percipiolondon\\colourswatches\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
-                    "name": "Percipio Global",
-                    "homepage": "https://percipio.london"
+                    "name": "Craft Pulse",
+                    "homepage": "https://github.com/craftpulse"
                 }
             ],
             "description": "Let clients choose from a predefined set of colours and utilise associated colour codes and class names in your templates.",
             "keywords": [
-                "Craft",
                 "cms",
                 "color-swatches",
                 "colors",
                 "colour-swatches",
                 "colours",
+                "craft",
                 "craft-plugin",
                 "craftcms",
                 "swatches"
             ],
             "support": {
-                "docs": "https://github.com/percipioglobal/craft-colour-swatches/blob/v4/README.md",
                 "email": "support@percipio.london",
-                "issues": "https://github.com/percipioglobal/craft-colour-swatches/issues",
-                "source": "https://github.com/craftpulse/craft-colour-swatches/tree/4.3.0"
+                "docs": "https://github.com/percipioglobal/craft-colour-swatches/blob/v4/README.md",
+                "issues": "https://github.com/percipioglobal/craft-colour-swatches/issues"
             },
-            "time": "2023-03-09T12:32:06+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
         },
         {
             "name": "craftpulse/craft-notifications",

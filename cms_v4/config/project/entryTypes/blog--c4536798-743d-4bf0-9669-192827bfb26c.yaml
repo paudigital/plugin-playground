@@ -2,6 +2,7 @@ fieldLayouts:
   44918e94-126a-4108-98da-1f66e19d2b2d:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,41 +27,91 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 35aed03f-a679-4e5f-b6d1-c324bacea57a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 21903cb2-5b82-49ea-9766-e120d0951ea3
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: abcda4a4-b1db-4677-b5d6-69588443704f
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 4a0cb371-14a6-415d-84db-fc0512410ec8
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
+            uid: c218ec6f-7d3b-4836-a62e-481537610827
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2dcdd6e6-2c9a-4c4e-893d-bcd2351960b1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9345069c-0d3c-4364-8dc1-19be6cc164af # Colour Swatch - Predefined
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68df84db-ad2e-40cf-8937-574e754e1a94
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 058692c4-2227-4a9e-816e-8c590e783d98 # Colour Swatches - Config
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f7e7598-f777-424f-8202-a5d8e922699c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 4a2b2ba3-1e46-49e1-9604-937856b8534f
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 7c19fb9d-9ec3-4466-b35c-7af4225a0d1c # Super Table Colour Swatch
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 040f235e-c7a1-451b-a4a2-e5b4aa748f9f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2b10a946-3fd3-4fc6-8172-40a309543415 # Vizy Colour Swatch
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 593fdc75-b0a2-4579-b699-c83eedde4ad8
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Colour Swatch'
+        uid: f93b5032-7b7b-47df-b68f-3b7aa1be19e8
+        userCondition: null
 handle: blog
 hasTitleField: true
 name: Blog
 section: de308a7d-1794-448f-9176-29e2eace7ecf
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
