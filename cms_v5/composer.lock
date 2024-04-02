@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e9c79a4463095b901f528996bea6ca4",
+    "content-hash": "75540eb80904cf15cd795455382f07d1",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -808,6 +808,75 @@
                 "source": "https://github.com/craftcms/server-check"
             },
             "time": "2024-01-23T23:20:44+00:00"
+        },
+        {
+            "name": "craftpulse/craft-colour-swatches",
+            "version": "5.0.0",
+            "dist": {
+                "type": "path",
+                "url": "/Users/Shared/dev/craft-plugins/v5/craft-colour-swatches",
+                "reference": "a0f7bdc7fca58d203d7871ce8e4863d5c58552d0"
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0",
+                "php": "^8.0.2"
+            },
+            "require-dev": {
+                "craftcms/cms": "^5.0.0",
+                "craftcms/phpstan": "dev-main",
+                "craftcms/rector": "dev-main"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Colour Swatches",
+                "handle": "colour-swatches",
+                "description": "Adding custom selectable colour palettes, gradients, classes and more to your field types.",
+                "developer": "craftpulse",
+                "developerUrl": "https://github.com/craftpulse",
+                "documentationUrl": "https://github.com/craftpulse/craft-colour-swatches/blob/v4/README.md",
+                "changelogUrl": "https://github.com/craftpulse/craft-colour-swatches/blob/v4/CHANGELOG.md",
+                "class": "percipiolondon\\colourswatches\\ColourSwatches"
+            },
+            "autoload": {
+                "psr-4": {
+                    "percipiolondon\\colourswatches\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpstan": [
+                    "phpstan --memory-limit=1G"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Craft Pulse",
+                    "homepage": "https://github.com/craftpulse"
+                }
+            ],
+            "description": "Let clients choose from a predefined set of colours and utilise associated colour codes and class names in your templates.",
+            "keywords": [
+                "cms",
+                "color-swatches",
+                "colors",
+                "colour-swatches",
+                "colours",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "swatches"
+            ],
+            "support": {
+                "email": "support@percipio.london",
+                "docs": "https://github.com/percipioglobal/craft-colour-swatches/blob/v4/README.md",
+                "issues": "https://github.com/percipioglobal/craft-colour-swatches/issues"
+            },
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
         },
         {
             "name": "creocoder/yii2-nested-sets",
@@ -3099,6 +3168,52 @@
             "time": "2024-03-02T05:07:43+00:00"
         },
         {
+            "name": "nystudio107/craft-twig-base-templates",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-twig-base-templates.git",
+                "reference": "0d7777f72695606eb0ab2c7f72b231adf770079c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-twig-base-templates/zipball/0d7777f72695606eb0ab2c7f72b231adf770079c",
+                "reference": "0d7777f72695606eb0ab2c7f72b231adf770079c",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "*",
+                "nystudio107/twig-bundle-installer": "^1.0.0"
+            },
+            "type": "twig-bundle",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Craft CMS Twig base templates",
+            "homepage": "https://nystudio107.com",
+            "keywords": [
+                "bundle",
+                "composer",
+                "installer",
+                "twig",
+                "twig-bundle"
+            ],
+            "support": {
+                "docs": "https://github.com/nystudio107/craft-twig-base-templates",
+                "email": "info@nystudio107.com",
+                "issues": "https://github.com/nystudio107/craft-twig-base-templates/issues",
+                "source": "https://github.com/nystudio107/craft-twig-base-templates"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/khalwat",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-12-27T18:40:01+00:00"
+        },
+        {
             "name": "nystudio107/craft-vite",
             "version": "5.0.0-beta.3",
             "source": {
@@ -3164,6 +3279,65 @@
                 }
             ],
             "time": "2024-03-02T05:12:05+00:00"
+        },
+        {
+            "name": "nystudio107/twig-bundle-installer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/twig-bundle-installer.git",
+                "reference": "68342f2ccaa5104bfbfe9b48c56ed00cc12d1724"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/twig-bundle-installer/zipball/68342f2ccaa5104bfbfe9b48c56ed00cc12d1724",
+                "reference": "68342f2ccaa5104bfbfe9b48c56ed00cc12d1724",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "nystudio107\\composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Install, update, and manage Twig template bundles via Composer",
+            "homepage": "https://nystudio107.com",
+            "keywords": [
+                "bundle",
+                "composer",
+                "craftcms",
+                "drupal",
+                "installer",
+                "symphony",
+                "twig"
+            ],
+            "support": {
+                "docs": "https://github.com/nystudio107/twig-bundle-installer",
+                "email": "info@nystudio107.com",
+                "issues": "https://github.com/nystudio107/twig-bundle-installer/issues",
+                "source": "https://github.com/nystudio107/twig-bundle-installer"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/khalwat",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-02-19T06:39:30+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
