@@ -1,6 +1,6 @@
 {
-  "name": "nystudio107/plugindev",
-  "description": "nystudio107 Craft CMS plugin development environment scaffolding",
+  "name": "paudigital/plugin-playground",
+  "description": "paudigital Craft CMS plugin development environment scaffolding",
   "keywords": [
     "craft",
     "cms",

@@ -1,5 +1,5 @@
 {
-  "name": "nystudio107/plugindev",
+  "name": "paudigital/plugin-playground",
   "description": "This is a project scaffolding package for Craft 4 CMS plugin development.",
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -7,18 +7,9 @@
     "php": "^8.2.0",
     "craftcms/cms": "^5.0.0",
     "craftcms/aws-s3": "^2.1.0",
-    "nystudio107/craft-cookies": "^5.0.0-beta.1",
     "nystudio107/craft-closure": "^1.0.1",
-    "nystudio107/craft-code-field": "^5.0.0-beta.1",
-    "nystudio107/craft-imageoptimize": "^5.0.0-beta.1",
     "nystudio107/craft-minify": "^5.0.0-beta.1",
-    "nystudio107/craft-retour": "^5.0.0-beta.1",
-    "nystudio107/craft-seomatic": "^5.0.0-beta.1",
-    "nystudio107/craft-twig-base-templates": "^1.0.0",
-    "nystudio107/craft-typogrify": "^5.0.0-beta.1",
     "nystudio107/craft-vite": "^5.0.0-beta.1",
-    "nystudio107/craft-webperf": "^5.0.0-beta.1",
-    "nystudio107/twig-bundle-installer": "^1.0.0",
     "vlucas/phpdotenv": "^5.4.0",
     "yiisoft/yii2-redis": "^2.0.6"
   },
@@ -37,7 +28,6 @@
     "craftcms/ckeditor": "^4.0.0-beta.1",
     "craftcms/digital-products": "^4.0.0",
     "craftcms/feed-me": "^6.0.0",
-    "craftcms/redactor": "4.0.x-dev",
     "craftcms/shopify": "^5.0.0",
     "nystudio107/craft-autocomplete": "^1.12.0",
     "putyourlightson/craft-blitz": "^5.0.0-beta.1",
@@ -61,7 +51,7 @@
   "repositories": [
     {
       "type": "path",
-      "url": "/Users/andrew/webdev/craft_v5/*",
+      "url": "/Users/Shared/dev/craft-plugins/v5/*",
       "options": {
         "symlink": true
       }

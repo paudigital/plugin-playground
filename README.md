@@ -1,6 +1,8 @@
-<p align="center"><a href="https://craftcms.com/" target="_blank"><img width="300" height="300" src="https://nystudio107.com/img/site/nystudio107_submark.svg" alt="nystudio107"></a></p>
+```
+ln -s /Users/michtio/dev /Users/Shared/dev
+```
 
-## About nystudio107/plugindev
+## About paudigital/plugin-playground
 
 This is a project scaffolding package for Craft CMS 3, 4 & 5 plugin development.
 
@@ -21,29 +23,29 @@ It gives you the following out of the box:
 * Multiple sites for testing
 * Prefab content with a "blog" channel for testing
 
-## Creating nystudio107/plugindev
+## Creating paudigital/plugin-playground
 
 This project package works exactly the way Pixel & Tonic's [craftcms/craft](https://github.com/craftcms/craft) package works; you create a new project via Composer:
 
-    composer create-project nystudio107/plugindev --no-install
+    composer create-project paudigital/plugin-playground --no-install
 
-This will create a project named `plugindev` which is a turnkey Craft CMS install for developing plugins.
+This will create a project named `plugin-playground` which is a turnkey Craft CMS install for developing plugins.
 
 We use `--no-install` so that the composer packages for the root project are not installed.
 
 It works this way so that you can take the basic scaffolding, and then modify it as you see fit.
 
-## Getting Started with nystudio107/plugindev
+## Getting Started with paudigital/plugin-playground
 
 You'll need [Docker desktop](https://www.docker.com/products/docker-desktop) for your platform installed to run the project in local development
 
 We also highly recommend that you use [OrbStack](https://orbstack.dev/) if you're running MacOS; it's a drop-in replacement for Docker Desktop that is significantly faster and more reliable.
 
-* Craft CMS 3 runs out of the `cms_v3/` directory available at `http://plugindev.local:8003` with OrbStack (`http://localhost:8003` with Docker Desktop)
+* Craft CMS 3 runs out of the `cms_v3/` directory available at `http://plugin-playground.local:8003` with OrbStack (`http://localhost:8003` with Docker Desktop)
 
-* Craft CMS 4 runs out of the `cms_v4/` directory available at `http://plugindev.local:8004` with OrbStack (`http://localhost:8004` with Docker Desktop)
+* Craft CMS 4 runs out of the `cms_v4/` directory available at `http://plugin-playground.local:8004` with OrbStack (`http://localhost:8004` with Docker Desktop)
 
-* Craft CMS 5 runs out of the `cms_v5/` directory available at `http://plugindev.local:8005` with OrbStack (`http://localhost:8005` with Docker Desktop)
+* Craft CMS 5 runs out of the `cms_v5/` directory available at `http://plugin-playground.local:8005` with OrbStack (`http://localhost:8005` with Docker Desktop)
 
 Each version of Craft CMS runs in separate Docker containers, and uses a separate database running out of the database containers (MySQL and Postgres). 
 
@@ -53,12 +55,12 @@ Composer will have already created a `.env` file in the `cms_v3/`, `cms_v4` & `c
 
 To set up your local dev environment, follow these steps:
 
-* Edit the `cms_v3/composer.json` file and change the line `"url": "/Users/andrew/webdev/craft_v3/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 3
-* Edit the `cms_v4/composer.json` file and change the line `"url": "/Users/andrew/webdev/craft_v4/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 4
-* Edit the `cms_v5/composer.json` file and change the line `"url": "/Users/andrew/webdev/craft_v5/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 5
-* Edit the `docker-composer.yaml` file and change the line `- /Users/andrew/webdev/craft_v3:/Users/andrew/webdev/craft_v3` to point to your local Craft CMS 3 plugin Git repositories
-* Edit the `docker-composer.yaml` file and change the line `- /Users/andrew/webdev/craft_v4:/Users/andrew/webdev/craft_v4` to point to your local Craft CMS 4 plugin Git repositories
-* Edit the `docker-composer.yaml` file and change the line `- /Users/andrew/webdev/craft_v5:/Users/andrew/webdev/craft_v5` to point to your local Craft CMS 4 plugin Git repositories
+* Edit the `cms_v3/composer.json` file and change the line `"url": "/Users/Shared/dev/craft-plugins/v3/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 3
+* Edit the `cms_v4/composer.json` file and change the line `"url": "/Users/Shared/dev/craft-plugins/v4/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 4
+* Edit the `cms_v5/composer.json` file and change the line `"url": "/Users/Shared/dev/craft-plugins/v5/*",` in `repositories` to point to your local plugin Git repositories for Craft CMS 5
+* Edit the `docker-composer.yaml` file and change the line `- /Users/Shared/dev/craft-plugins/v3:/Users/Shared/dev/craft-plugins/v3` to point to your local Craft CMS 3 plugin Git repositories
+* Edit the `docker-composer.yaml` file and change the line `- /Users/Shared/dev/craft-plugins/v4:/Users/Shared/dev/craft-plugins/v4` to point to your local Craft CMS 4 plugin Git repositories
+* Edit the `docker-composer.yaml` file and change the line `- /Users/Shared/dev/craft-plugins/v5:/Users/Shared/dev/craft-plugins/v5` to point to your local Craft CMS 4 plugin Git repositories
 
 ### Setting up Plugin Git Repos
 
@@ -74,54 +76,54 @@ This makes working with multiple versions of your plugins for multiple versions 
 
 Each directory will always have their branches set appropriately, and you can have separate Git Flow settings via Git Tower or other clients for each.
 
-## Using nystudio107/plugindev
+## Using paudigital/plugin-playground
 
-Start up the `plugindev` environment by typing `make dev` in a terminal window (the first build will be somewhat lengthy).
+Start up the `plugin-playground` environment by typing `make dev` in a terminal window (the first build will be somewhat lengthy).
 
-To stop the `plugindev` environment, type `Control-C` in the terminal window you used to start it, which terminates the Docker containers.
+To stop the `plugin-playground` environment, type `Control-C` in the terminal window you used to start it, which terminates the Docker containers.
 
 **N.B.:** Since the containers need to be built, and Composer needs to install all of the packages, the initial `make dev` can take some time. So before you attempt to load it in your web browser, wait until you see:
 ```
-plugindev-php_v3-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
-plugindev-php_v3-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
+plugin-playground-php_v3-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
+plugin-playground-php_v3-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
 ```
 ...and:
 ```
-plugindev-php_v4-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
-plugindev-php_v4-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
+plugin-playground-php_v4-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
+plugin-playground-php_v4-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
 ```
 ...and:
 ```
-plugindev-php_v5-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
-plugindev-php_v5-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
+plugin-playground-php_v5-1         | [09-Mar-2022 04:05:33] NOTICE: fpm is running, pid 8
+plugin-playground-php_v5-1         | [09-Mar-2022 04:05:33] NOTICE: ready to handle connections
 ```
 
 ### Login
 
-* Navigate to `http://plugindev.local:8003` to use the Craft CMS 3 site
-* Navigate to `http://plugindev.local:8004` to use the Craft CMS 4 site
-* Navigate to `http://plugindev.local:8004` to use the Craft CMS 5 site
+* Navigate to `http://plugin-playground.local:8003` to use the Craft CMS 3 site
+* Navigate to `http://plugin-playground.local:8004` to use the Craft CMS 4 site
+* Navigate to `http://plugin-playground.local:8004` to use the Craft CMS 5 site
 
-The default login for all `plugindev` sites is:
+The default login for all `plugin-playground` sites is:
 
 **User:** `admin` \
 **Password:** `password`
 
 ### Editor
 
-You should open the `craft_v3`, `craft_v4`, and `craft_v5` subdirectories in separate windows in your code editor of choice, rather than opening up the entire `plugindev` project in a single window.
+You should open the `craft_v3`, `craft_v4`, and `craft_v5` subdirectories in separate windows in your code editor of choice, rather than opening up the entire `plugin-playground` project in a single window.
 
 This allows your editor to index each Craft CMS install separately for things like code completion, and it also allows you to have separate PHP language level inspection settings (PHP 7.1 for Craft CMS 3, PHP 8 for Craft CMS 4, PHP 8.2 for Craft CMS 5).
 
-You can also set up IDEs like PhpStorm to use the PHP interpreter inside the appropriate Docker container (`plugindev_php_xdebug_v3` for Craft CMS 3, `plugindev_php_xdebug_v4` for Craft CMS 4, and `plugindev_php_xdebug_v5` for Craft CMS 5), and set up path mappings for XDebug.
+You can also set up IDEs like PhpStorm to use the PHP interpreter inside the appropriate Docker container (`plugin-playground_php_xdebug_v3` for Craft CMS 3, `plugin-playground_php_xdebug_v4` for Craft CMS 4, and `plugin-playground_php_xdebug_v5` for Craft CMS 5), and set up path mappings for XDebug.
 
 Remember to enable the Symfony plugin if you're using PhpStorm for each project.
 
 ### Exposed ports & services
 
-`plugindev` intentionally uses non-standard ports so you can run it side-by-side with another local dev environment, without risk of port conflicts.
+`plugin-playground` intentionally uses non-standard ports so you can run it side-by-side with another local dev environment, without risk of port conflicts.
 
-The following ports are exposed on `localhost` while `plugindev` is running (these need to not be in use prior to starting up `plugindev`):
+The following ports are exposed on `localhost` while `plugin-playground` is running (these need to not be in use prior to starting up `plugin-playground`):
 
 * `8003` - The Craft CMS 3 website
 * `8004` - The Craft CMS 4 website
@@ -150,7 +152,7 @@ You can read more about it in the [Using Make & Makefiles to Automate your Front
 
 You can run the following from terminal in the root project directory:
 
-- `make dev` - starts up the local dev server listening on `http://plugindev.local:8003/`, `http://plugindev.local:8004/` & `http://plugindev.local:8005/`
+- `make dev` - starts up the local dev server listening on `http://plugin-playground.local:8003/`, `http://plugin-playground.local:8004/` & `http://plugin-playground.local:8005/`
 - `make clean` - removes the `composer.lock` and the entire `vendor/` directory from the `cms_v3`, `cms_v4` & `cms_v5` projects
 - `make nuke` - restarts the project from scratch by running `make clean` (above), then shuts down the Docker containers, removes any mounted volumes (including the database), and then rebuilds the containers from scratch
 
@@ -174,7 +176,7 @@ You can run the following from terminal in the `cms_v3` or `cms_v4` CMS director
 
 ### Switching between MySQL & Postgres
 
-The `plugindev` environment supports both MySQL and Postgres out of the box. It spins up a container for each database, and seeds them with a starter db.
+The `plugin-playground` environment supports both MySQL and Postgres out of the box. It spins up a container for each database, and seeds them with a starter db.
 
 To use MySQL (the default) just type:
 ```bash
@@ -194,9 +196,9 @@ This is great for ensuring your db queries work properly on both MySQL and Postg
 
 IF you use [OrbStack](https://orbstack.dev/) as a faster, more efficient replacement for Docker Desktop on the Mac, you can take advantage of some local domain aliases:
 
-* `plugindev.local:8003`, `plugindev.local:8004` & `plugindev.local:8005` - domain aliases for the respective web hosts
-* `mysql.plugindev.local` - local domain alias for the MySQL database container
-* `postgres.plugindev.local` - local domain alias for the Postgres database container
+* `plugin-playground.local:8003`, `plugin-playground.local:8004` & `plugin-playground.local:8005` - domain aliases for the respective web hosts
+* `mysql.plugin-playground.local` - local domain alias for the MySQL database container
+* `postgres.plugin-playground.local` - local domain alias for the Postgres database container
 
 ## Dual PHP Containers for Xdebug
 
