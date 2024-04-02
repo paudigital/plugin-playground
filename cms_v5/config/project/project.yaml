@@ -1,0 +1,39 @@
+dateModified: 1712048410
+email:
+  fromEmail: andrew@nystudio107.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Site
+    settings:
+      path: '@webroot/assets/site'
+    type: craft\fs\Local
+    url: '@assetsUrl/assets/site'
+meta:
+  __names__:
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: English # English
+    54e60257-f31a-44aa-960e-bbd364197e28: Homepage # Homepage
+    681bb90b-e190-4f91-8c54-6fcbff972de5: Simple # Simple
+    21903cb2-5b82-49ea-9766-e120d0951ea3: 'Plain Text' # Plain Text
+    c4536798-743d-4bf0-9669-192827bfb26c: Blog # Blog
+    de308a7d-1794-448f-9176-29e2eace7ecf: Blog # Blog
+    ec473f07-152f-423b-90df-ac425e6068a1: Spanish # Spanish
+    f89601e9-4ba9-4a48-9e99-350aa9914912: plugindev # plugindev
+    fb3a8f31-d1cc-4c13-903b-a501f7e51f54: Homepage # Homepage
+system:
+  edition: pro
+  live: true
+  name: plugindev
+  retryDuration: 60
+  schemaVersion: 5.0.0.20
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
