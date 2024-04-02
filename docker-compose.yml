@@ -60,7 +60,7 @@ services:
     tty: true
     volumes: &php-volumes_v3
       # Change the path below to map to your local plugin repositories
-      - /Users/michtio/dev/craft-plugins/v3:/Users/michtio/dev/craft-plugins/v3
+      - /Users/Shared/dev/craft-plugins/v3:/Users/Shared/dev/craft-plugins/v3
       - cpresources_v3:/var/www/project/cms_v3/web/cpresources:delegated
       - storage_v3:/var/www/project/cms_v3/storage:delegated
       - ./cms_v3:/var/www/project/cms_v3:cached
@@ -86,7 +86,7 @@ services:
     tty: true
     volumes: &php-volumes_v4
       # Change the path below to map to your local plugin repositories
-      - /Users/michtio/dev/craft-plugins/v4:/Users/michtio/dev/craft-plugins/v4
+      - /Users/Shared/dev/craft-plugins/v4:/Users/Shared/dev/craft-plugins/v4
       - cpresources_v4:/var/www/project/cms_v4/web/cpresources:delegated
       - storage_v4:/var/www/project/cms_v4/storage:delegated
       - ./cms_v4:/var/www/project/cms_v4:cached
@@ -112,7 +112,7 @@ services:
     tty: true
     volumes: &php-volumes_v5
       # Change the path below to map to your local plugin repositories
-      - /Users/michtio/dev/craft-plugins/v5:/Users/michtio/dev/craft-plugins/v5
+      - /Users/Shared/dev/craft-plugins/v5:/Users/Shared/dev/craft-plugins/v5
       - cpresources_v5:/var/www/project/cms_v5/web/cpresources:delegated
       - storage_v5:/var/www/project/cms_v5/storage:delegated
       - ./cms_v5:/var/www/project/cms_v5:cached
