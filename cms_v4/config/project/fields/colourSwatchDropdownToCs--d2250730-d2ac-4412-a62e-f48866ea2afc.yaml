@@ -1,0 +1,15 @@
+columnSuffix: zshzgxbf
+contentColumnType: text
+fieldGroup: 03c0a059-4485-4b18-b650-67f2b4da5b6c # Colour Swatches
+handle: colourSwatchDropdownToCs
+instructions: null
+name: 'Colour Swatch - Dropdown to CS'
+searchable: false
+settings:
+  default: null
+  palette: Tailwind
+  setRandom: false
+  useConfigFile: true
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\colourswatches\fields\ColourSwatches

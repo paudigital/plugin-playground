@@ -1,0 +1,97 @@
+changedFieldIndicator: 584669626
+field: 7c19fb9d-9ec3-4466-b35c-7af4225a0d1c # Super Table Colour Swatch
+fieldLayouts:
+  1f03a13f-37f1-4575-91eb-e12df428b736:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b89280de-1dc3-49cd-8d4e-0d2763f9484c # Color - Predefined
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1708aa9c-cc04-46a8-b48f-f42834b82be1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2148e7ac-f72b-444f-b943-413bbdcc36f2 # Color - Config
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6062ebc8-f5a9-49b8-b59a-e09563fcdac1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 69a83a1a-955c-4650-aca1-73610d7339b9
+        userCondition: null
+fields:
+  2148e7ac-f72b-444f-b943-413bbdcc36f2: # Color - Config
+    columnSuffix: pcjztoaf
+    contentColumnType: text
+    fieldGroup: null
+    handle: colorConfig
+    instructions: null
+    name: 'Color - Config'
+    searchable: false
+    settings:
+      default: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Color 1 '
+            -
+              - color
+              - '#FFF000'
+            -
+              - default
+              - ''
+            -
+              - class
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Color 2 '
+            -
+              - color
+              - '#000FFF'
+            -
+              - default
+              - ''
+            -
+              - class
+              - ''
+      palette: Tailwind
+      setRandom: false
+      useConfigFile: false
+    translationKeyFormat: null
+    translationMethod: none
+    type: percipiolondon\colourswatches\fields\ColourSwatches
+  b89280de-1dc3-49cd-8d4e-0d2763f9484c: # Color - Predefined
+    columnSuffix: utptsrrx
+    contentColumnType: text
+    fieldGroup: null
+    handle: colorPredefined
+    instructions: null
+    name: 'Color - Predefined'
+    searchable: false
+    settings:
+      default: null
+      palette: Tailwind
+      setRandom: false
+      useConfigFile: true
+    translationKeyFormat: null
+    translationMethod: none
+    type: percipiolondon\colourswatches\fields\ColourSwatches

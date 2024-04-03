@@ -1,0 +1,99 @@
+columnSuffix: xeeuodxo
+contentColumnType: text
+fieldGroup: 03c0a059-4485-4b18-b650-67f2b4da5b6c # Colour Swatches
+handle: vizyColourSwatch
+instructions: null
+name: 'Vizy Colour Swatch'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  blockTypeBehaviour: click
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  defaultUploadLocationSource: 'volume:5c642d7e-b16b-4836-9575-668d75d242e5' # Site
+  editorMode: combined
+  fieldData:
+    -
+      __assoc__:
+        -
+          - id
+          - group-LYH8WXmFWE
+        -
+          - name
+          - 'Colour Swatch'
+        -
+          - blockTypes
+          -
+            -
+              __assoc__:
+                0:
+                  - id
+                  - type-FvRpL1sMdL
+                1:
+                  - name
+                  - Color
+                2:
+                  - handle
+                  - color
+                3:
+                  - icon
+                  -
+                    __assoc__:
+                      -
+                        - label
+                        - 'Paint Roller'
+                      -
+                        - value
+                        - paint-roller-solid
+                5:
+                  - enabled
+                  - true
+                6:
+                  - layoutUid
+                  - 2e8ed839-a51f-4348-873f-2660715fea91
+                7:
+                  - layoutConfig
+                  -
+                    __assoc__:
+                      -
+                        - tabs
+                        -
+                          -
+                            __assoc__:
+                              0:
+                                - name
+                                - Color
+                              1:
+                                - uid
+                                - b3e725e9-6d0c-4f28-86b1-6f2e4498d5a5
+                              4:
+                                - elements
+                                -
+                                  -
+                                    __assoc__:
+                                      0: [type, craft\fieldlayoutelements\CustomField]
+                                      5: [required, true]
+                                      6: [width, 100]
+                                      7: [uid, a60fce8d-6c58-419d-a4d4-1a738541e6cc]
+                                      10: [fieldUid, 9345069c-0d3c-4364-8dc1-19be6cc164af] # Colour Swatch - Predefined
+                                  -
+                                    __assoc__:
+                                      0: [type, craft\fieldlayoutelements\CustomField]
+                                      5: [required, true]
+                                      6: [width, 100]
+                                      7: [uid, 073d7ccd-a8b8-447a-89a9-b5e0feaaf43e]
+                                      10: [fieldUid, 058692c4-2227-4a9e-816e-8c590e783d98] # Colour Swatches - Config
+  initialRows: 7
+  manualConfig: ''
+  maxBlocks: null
+  minBlocks: null
+  pasteAsPlainText: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  trimEmptyParagraphs: true
+  vizyConfig: ''
+translationKeyFormat: null
+translationMethod: none
+type: verbb\vizy\fields\VizyField

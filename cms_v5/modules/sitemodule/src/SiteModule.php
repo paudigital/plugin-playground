@@ -85,42 +85,42 @@ class SiteModule extends Module
      */
     public function init()
     {
-        parent::init();
-        self::$instance = $this;
+        // parent::init();
+        // self::$instance = $this;
 
-        // Register our components
-        $this->setComponents([
-            'helper' => [
-                'class' => Helper::class,
-            ]
-        ]);
-        // Register our variables
-        Event::on(
-            CraftVariable::class,
-            CraftVariable::EVENT_INIT,
-            static function (Event $event) {
-                /** @var CraftVariable $variable */
-                $variable = $event->sender;
-                $variable->set('site', SiteVariable::class);
-            }
-        );
-        // Register our Asset bundle for CP requests
-        if (Craft::$app->getRequest()->getIsCpRequest()) {
-            Event::on(
-                View::class,
-                View::EVENT_BEFORE_RENDER_TEMPLATE,
-                static function (TemplateEvent $event) {
-                    try {
-                        Craft::$app->getView()->registerAssetBundle(SiteModuleAsset::class);
-                    } catch (InvalidConfigException $e) {
-                        Craft::error(
-                            'Error registering AssetBundle - ' . $e->getMessage(),
-                            __METHOD__
-                        );
-                    }
-                }
-            );
-        }
+        // // Register our components
+        // $this->setComponents([
+        //     'helper' => [
+        //         'class' => Helper::class,
+        //     ]
+        // ]);
+        // // Register our variables
+        // Event::on(
+        //     CraftVariable::class,
+        //     CraftVariable::EVENT_INIT,
+        //     static function (Event $event) {
+        //         /** @var CraftVariable $variable */
+        //         $variable = $event->sender;
+        //         $variable->set('site', SiteVariable::class);
+        //     }
+        // );
+        // // Register our Asset bundle for CP requests
+        // if (Craft::$app->getRequest()->getIsCpRequest()) {
+        //     Event::on(
+        //         View::class,
+        //         View::EVENT_BEFORE_RENDER_TEMPLATE,
+        //         static function (TemplateEvent $event) {
+        //             try {
+        //                 Craft::$app->getView()->registerAssetBundle(SiteModuleAsset::class);
+        //             } catch (InvalidConfigException $e) {
+        //                 Craft::error(
+        //                     'Error registering AssetBundle - ' . $e->getMessage(),
+        //                     __METHOD__
+        //                 );
+        //             }
+        //         }
+        //     );
+        // }
         Craft::info(
             Craft::t(
                 'site-module',

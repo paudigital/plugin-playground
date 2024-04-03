@@ -1,0 +1,44 @@
+columnSuffix: lrcnqpms
+contentColumnType: text
+fieldGroup: 03c0a059-4485-4b18-b650-67f2b4da5b6c # Colour Swatches
+handle: colourSwatchPredefined
+instructions: null
+name: 'Colour Swatch - Predefined'
+searchable: false
+settings:
+  default: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Color 1'
+        -
+          - color
+          - '#FFF000'
+        -
+          - default
+          - ''
+        -
+          - class
+          - color-1
+    -
+      __assoc__:
+        -
+          - label
+          - 'Color 2'
+        -
+          - color
+          - '#000FFF'
+        -
+          - default
+          - ''
+        -
+          - class
+          - color-2
+  palette: null
+  setRandom: false
+  useConfigFile: false
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\colourswatches\fields\ColourSwatches

@@ -1,0 +1,37 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 03c0a059-4485-4b18-b650-67f2b4da5b6c # Colour Swatches
+handle: superTableColourSwatch
+instructions: null
+name: 'Super Table Colour Swatch'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 737807758
+  columns:
+    __assoc__:
+      -
+        - b89280de-1dc3-49cd-8d4e-0d2763f9484c # Color - Predefined
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 2148e7ac-f72b-444f-b943-413bbdcc36f2 # Color - Config
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_supertablecolourswatch}}'
+  fieldLayout: table
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

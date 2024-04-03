@@ -1,0 +1,57 @@
+dateModified: 1712060719
+email:
+  fromEmail: andrew@nystudio107.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Site
+    settings:
+      path: '@webroot/assets/site'
+    type: craft\fs\Local
+    url: '@assetsUrl/assets/site'
+meta:
+  __names__:
+    2b10a946-3fd3-4fc6-8172-40a309543415: 'Vizy Colour Swatch' # Vizy Colour Swatch
+    03c0a059-4485-4b18-b650-67f2b4da5b6c: 'Colour Swatches' # Colour Swatches
+    5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
+    5da841b1-ca0d-46ff-8bb1-04d6c889ac54: English # English
+    7c19fb9d-9ec3-4466-b35c-7af4225a0d1c: 'Super Table Colour Swatch' # Super Table Colour Swatch
+    94b4d5ac-d7ea-4241-a6cb-92b39f482f99: Common # Common
+    2148e7ac-f72b-444f-b943-413bbdcc36f2: 'Color - Config' # Color - Config
+    058692c4-2227-4a9e-816e-8c590e783d98: 'Colour Swatches - Config' # Colour Swatches - Config
+    9345069c-0d3c-4364-8dc1-19be6cc164af: 'Colour Swatch - Predefined' # Colour Swatch - Predefined
+    b89280de-1dc3-49cd-8d4e-0d2763f9484c: 'Color - Predefined' # Color - Predefined
+    c4536798-743d-4bf0-9669-192827bfb26c: Blog # Blog
+    d2250730-d2ac-4412-a62e-f48866ea2afc: 'Colour Swatch - Dropdown to CS' # Colour Swatch - Dropdown to CS
+    ec473f07-152f-423b-90df-ac425e6068a1: Spanish # Spanish
+    f89601e9-4ba9-4a48-9e99-350aa9914912: plugindev # plugindev
+    fb3a8f31-d1cc-4c13-903b-a501f7e51f54: Homepage # Homepage
+plugins:
+  colour-swatches:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.4.3
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  vizy:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.9.0
+system:
+  edition: pro
+  live: true
+  name: plugindev
+  retryDuration: 60
+  schemaVersion: 4.5.3.0
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  deactivateByDefault: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
