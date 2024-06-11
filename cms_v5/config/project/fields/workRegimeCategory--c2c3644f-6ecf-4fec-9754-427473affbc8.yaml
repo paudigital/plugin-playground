@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: workRegimeCategory
+instructions: null
+name: 'Work Regime'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:71105afa-8dbe-45f7-a4cb-ffe3d1233dd1' # Work Regimes
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

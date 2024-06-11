@@ -1,0 +1,586 @@
+color: null
+fieldLayouts:
+  25dd5c53-f79d-4134-8af8-5cab13d79ae0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a3231bfb-81ba-42ad-99fc-f0b0226cf6de
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 205ba2f4-abac-4e73-8c5d-6ed86fe58ca4 # Reference
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 200c3eb3-a79d-4f4f-aef9-006c5511f199
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: cf2b3352-9c02-4c9e-a61b-a2dbfe261130 # Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c961f24-9bf1-476d-9233-67c254d2aa9a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8fb1cf9a-9f31-4dee-b3e2-921c2bdead65 # Description Level 1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77698efa-dcbc-4694-bd40-ca6b7eb209d2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9d4c5fd4-024d-426c-886e-e4fba141997c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 58c3ad67-e54b-4a84-a4ee-303a31de149b # Office
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ad4c913-2547-4766-b848-ef7eac729292
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: fea43936-e48b-424e-bb75-5d6fb38cb641 # Sectors
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d38b2556-3ef1-474f-9114-ce6d7e29c20e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: c9ce1a3b-8b07-470c-b66a-1a266f4658df # Place
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d30be283-528b-476c-95b0-13fbfa6db048
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 462be078-6110-45c6-a983-cd1ce9e7db31
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 271e207b-1eee-40f7-b53e-8211d695d8c5 # Start Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2d30e51-5153-4e29-9ffb-412248f76528
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4faef4d9-a6d2-4ea2-92c5-66effa34fda4 # End Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 51396253-8398-416c-a845-3ff496f13754
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 853822dd-01b4-4eea-9129-415a774dde68
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 08f3aa20-c95b-4d39-a4a3-e81fb7082ea7 # Fulltime Hours
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d4660db3-3ca2-4d62-8a05-2a1047416b94
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ccf97dd2-0a76-40c2-8f6d-13995e01214a # Parttime Hours
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 74134279-257a-4f53-a48f-ad0cf20d1b04
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: c1029fc9-d2a6-455f-a021-d172a1e6009b
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: d3360288-41a9-448a-b7a1-00a4cdb63a4f # Benefits
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 429f2f0c-c2bb-43d2-9f66-f65bd284eb5a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aab2db5e-a068-48b6-a87c-ddf79572ba73 # Offer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f6f6d9ec-678f-42cd-9eb0-2a6451f22f85
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c8ccab8f-2ff9-4989-8ce6-0a7f78c99828 # Tasks and profiles
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12c5e65a-3a34-48f3-a3a8-48a1eee2ae5b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Info
+        uid: f5d612f4-4aa7-4d13-a3b9-b1ebadaa64ed
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7c23c226-6156-434b-8843-b007d71cba68 # Openings
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d579960c-a618-44ec-9217-a6c315cd9f0d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: c2c3644f-6ecf-4fec-9754-427473affbc8 # Work Regime
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac757c4f-f10d-4d55-bd81-363b07816ab2
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: c7433434-a0c9-425f-adb2-d72cdd7a5213 # Contract Type
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 390e4d9a-c39c-49df-b648-80e40d4c39b1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 2d07f068-cbc3-4c2f-b1a4-d5a9042d42f1 # Shift
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54dce380-b157-44f0-8cb3-c5baff2bd3c0
+            userCondition: null
+            warning: null
+            width: 50
+        name: Conditions
+        uid: 90322960-f493-4c2d-b4c6-916062b45c4a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b7af9d00-9826-499c-957e-3c709d3e7f58 # Driving Licenses
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6486bbe2-cc6b-458c-8998-33144a22c2cc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ab21bec1-f974-47b2-be4f-3089ee353767 # Education
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f574b106-311b-49fb-90a3-b729c5e663e4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a36193b1-112b-4c05-9b02-8d692c3764f7 # Required Years Of Experience
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94a938e0-5933-4ec1-a317-8f04b7debd8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e181b5a1-a611-4352-b119-8983bdcf9bcf # Expertise
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e189aa20-d50c-41f8-b905-e5ba883ef522
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 60129d2c-af98-4f25-9af4-2b917581a8d6 # Certificates
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5639494f-be6e-4cc4-a010-67cf39d49034
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7e804bd2-8c83-4ab0-ab08-5565e7f757d7 # Skills
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fbc2df9-94cf-41b5-ac7d-70732f042993
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c4c53889-e1d1-4c19-be10-1d3701cc9d98 # Extra
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1176fed5-ea4c-4209-b4f7-c6e08034b274
+            userCondition: null
+            warning: null
+            width: 100
+        name: Requirements
+        uid: 1deaf981-bf54-484a-948f-202a8e065870
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3a603f36-b763-401a-8d53-14e70b983468 # Wage Minimum
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: afd382c9-159f-4f9e-9ac4-3353bb3422b4
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ca882979-0dd8-4e29-b3b2-4a7d726585b7 # Wage Maximum
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63d6a22c-2e52-4d91-9a0b-0a080f35bfa9
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 80666307-0826-468b-8789-1a15e100121e
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 779d6ff7-29f8-4355-be08-61aac624ee76 # Wage Information
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ad8e8c7-c395-44d8-a6c1-7b80c8ec88c9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f684a600-12cd-4a33-8d5b-a624d5622d5a # Wage Duration
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 184ef6e4-44b1-413b-a5c1-a7e9cf5e1405
+            userCondition: null
+            warning: null
+            width: 100
+        name: Wage
+        uid: 402f8f13-e7f0-4809-85c7-e8913440ae32
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3d3b02a1-219d-495c-88a7-4e5ff522982b # Job Advisor
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99f4341a-bc8a-4d46-b62f-2f0b364bbfa1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Contact
+        uid: 8bd1f99f-d50d-4e73-813d-2ac172a52902
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2a26e8dc-782a-42b1-81ff-51cec267de46 # Job ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 361a92a6-f4a5-4b1b-b94a-0e49e5386c80
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a8c715ff-bfdc-4776-9c97-751e95e06b27 # Client ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5209036-78bf-4061-a97b-bc10c88e53ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cff2482c-5258-4e5a-8b16-09f4bcdf9e53 # Branch ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7f517ae7-7677-4b84-b06e-6febc312c860
+            userCondition: null
+            warning: null
+            width: 100
+        name: ATS
+        uid: f14861a6-f7cb-4787-8280-36215391a23d
+        userCondition: null
+handle: job
+hasTitleField: true
+icon: ''
+name: Job
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

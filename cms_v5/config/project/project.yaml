@@ -1,4 +1,37 @@
-dateModified: 1712048410
+dateModified: 1717753536
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      key: singles
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      key: 'section:de308a7d-1794-448f-9176-29e2eace7ecf' # Blog
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:5652f637-1019-421f-8ae2-28d55565cc26' # Go4Jobs Contacts
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - authors
+        - link
+        - 'field:ac54d7eb-2094-4ee0-a4a4-c5e68c2c70b5' # INSS
+      type: native
+    -
+      key: 'section:37169c43-6f59-4dd6-922b-545738f304c0' # Jobs
+      type: native
+    -
+      key: 'section:8db75fea-7c76-46d7-9770-c9a53adc02b4' # Offices
+      type: native
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -13,16 +46,285 @@ fs:
     url: '@assetsUrl/assets/site'
 meta:
   __names__:
+    0f022eb9-698f-4284-a4d4-15af69df177c: 'Go4Jobs Contact' # Go4Jobs Contact
+    2a26e8dc-782a-42b1-81ff-51cec267de46: 'Job ID' # Job ID
+    2d07f068-cbc3-4c2f-b1a4-d5a9042d42f1: Shift # Shift
+    2d14a77c-056d-4454-a4da-7a67cb850181: Communication # Communication
+    3a603f36-b763-401a-8d53-14e70b983468: 'Wage Minimum' # Wage Minimum
+    3d3b02a1-219d-495c-88a7-4e5ff522982b: 'Job Advisor' # Job Advisor
+    3e77369f-82e7-4d49-a2e9-20d675e95231: 'Tax Number' # Tax Number
+    4d73543b-ced3-440a-b157-6f0a08aa2fa1: Longitude # Longitude
+    4faef4d9-a6d2-4ea2-92c5-66effa34fda4: 'End Date' # End Date
     5c642d7e-b16b-4836-9575-668d75d242e5: Site # Site
     5da841b1-ca0d-46ff-8bb1-04d6c889ac54: English # English
+    7c23c226-6156-434b-8843-b007d71cba68: Openings # Openings
+    7e804bd2-8c83-4ab0-ab08-5565e7f757d7: Skills # Skills
+    8db75fea-7c76-46d7-9770-c9a53adc02b4: Offices # Offices
+    08f3aa20-c95b-4d39-a4a3-e81fb7082ea7: 'Fulltime Hours' # Fulltime Hours
+    8fb1cf9a-9f31-4dee-b3e2-921c2bdead65: 'Description Level 1' # Description Level 1
+    9e969682-5f83-4de9-8bab-79c7fa58d7f3: Sectors # Sectors
+    20a39208-57db-4e04-9c1c-6ecf561ccacc: 'Contract Types' # Contract Types
+    35cc7afb-4ec8-4528-b383-c58705da22ae: Contact # Contact
+    40f23740-adae-419f-92cf-3076dba99ddc: Shifts # Shifts
+    42de390c-c029-43e3-befc-1e74c0346fc9: 'Contact ID' # Contact ID
     54e60257-f31a-44aa-960e-bbd364197e28: Homepage # Homepage
+    58c3ad67-e54b-4a84-a4ee-303a31de149b: Office # Office
+    61e24bd4-2790-4249-b9f2-74eaedb5cfce: 'Driving Licenses' # Driving Licenses
+    85b3f847-c856-44f9-a485-182c095e763b: City # City
+    205ba2f4-abac-4e73-8c5d-6ed86fe58ca4: Reference # Reference
+    271e207b-1eee-40f7-b53e-8211d695d8c5: 'Start Date' # Start Date
+    450bb0e5-f954-443f-97b1-087f7d135aae: Places # Places
+    516fb4d9-8db4-43e0-8342-88ceb985d624: Communication # Communication
+    577cf0c5-524c-472b-9ccd-7f45c229acd5: Mailbox # Mailbox
     681bb90b-e190-4f91-8c54-6fcbff972de5: Simple # Simple
+    720a636a-c172-4491-98ef-3b492610c367: 'Street + number' # Street + number
+    779d6ff7-29f8-4355-be08-61aac624ee76: 'Wage Information' # Wage Information
+    901e615c-d5d1-4bcd-b6d6-e2e1d3d78689: Job # Job
+    2184d57c-c955-4db7-b0ab-0301bd12df80: Standfirst # Standfirst
+    5652f637-1019-421f-8ae2-28d55565cc26: 'Go4Jobs Contacts' # Go4Jobs Contacts
     21903cb2-5b82-49ea-9766-e120d0951ea3: 'Plain Text' # Plain Text
+    37169c43-6f59-4dd6-922b-545738f304c0: Jobs # Jobs
+    60129d2c-af98-4f25-9af4-2b917581a8d6: Certificates # Certificates
+    71105afa-8dbe-45f7-a4cb-ffe3d1233dd1: 'Work Regimes' # Work Regimes
+    170164cc-e2b7-4040-9aa6-a4443bfb623b: Offices # Offices
+    426235da-112d-4fef-a626-1cfb8219857b: License # License
+    1181677e-5ed7-416b-bafd-842f21871714: 'Company Number' # Company Number
+    a2f43b04-927b-493d-aa73-beb2fad0fbe1: 'Colour Swatches - Prefilled' # Colour Swatches - Prefilled
+    a8c715ff-bfdc-4776-9c97-751e95e06b27: 'Client ID' # Client ID
+    a59beaf0-f2eb-4624-b94d-06132b6f5745: Province # Province
+    a3792af4-5f04-43ef-9d4b-f91a0523dec0: 'Registration Number' # Registration Number
+    a36193b1-112b-4c05-9b02-8d692c3764f7: 'Required Years Of Experience' # Required Years Of Experience
+    aab2db5e-a068-48b6-a87c-ddf79572ba73: Offer # Offer
+    ab21bec1-f974-47b2-be4f-3089ee353767: Education # Education
+    ac54d7eb-2094-4ee0-a4a4-c5e68c2c70b5: INSS # INSS
+    aecd54da-242a-4e38-9e6d-00bb8a914e21: 'Email address' # Email address
+    b7af9d00-9826-499c-957e-3c709d3e7f58: 'Driving Licenses' # Driving Licenses
+    b1904d35-094d-4bbe-83ce-5b154fbc0cfc: Full # Full
+    bbafb19f-56e1-49ff-a111-fec4f122a1e8: Latitude # Latitude
+    bf32dca0-775d-4836-a59f-5129e3aa284b: Telephone # Telephone
+    c035276a-67e5-4da5-8c87-b39f18cd971f: 'Communication Type' # Communication Type
+    c2c3644f-6ecf-4fec-9754-427473affbc8: 'Work Regime' # Work Regime
+    c4c53889-e1d1-4c19-be10-1d3701cc9d98: Extra # Extra
+    c8ccab8f-2ff9-4989-8ce6-0a7f78c99828: 'Tasks and profiles' # Tasks and profiles
+    c9ce1a3b-8b07-470c-b66a-1a266f4658df: Place # Place
+    c153524d-bff9-46be-990b-74bbc241badf: Provinces # Provinces
     c4536798-743d-4bf0-9669-192827bfb26c: Blog # Blog
+    c7433434-a0c9-425f-adb2-d72cdd7a5213: 'Contract Type' # Contract Type
+    ca882979-0dd8-4e29-b3b2-4a7d726585b7: 'Wage Maximum' # Wage Maximum
+    ccf97dd2-0a76-40c2-8f6d-13995e01214a: 'Parttime Hours' # Parttime Hours
+    cf2b3352-9c02-4c9e-a61b-a2dbfe261130: Content # Content
+    cff2482c-5258-4e5a-8b16-09f4bcdf9e53: 'Branch ID' # Branch ID
+    d3360288-41a9-448a-b7a1-00a4cdb63a4f: Benefits # Benefits
     de308a7d-1794-448f-9176-29e2eace7ecf: Blog # Blog
+    e181b5a1-a611-4352-b119-8983bdcf9bcf: Expertise # Expertise
     ec473f07-152f-423b-90df-ac425e6068a1: Spanish # Spanish
+    f4d40055-2e42-482a-8715-82ad4283f2c8: 'Description Level 2' # Description Level 2
+    f17c5702-849e-42ae-8ed0-c460636d9cc7: 'Post Code' # Post Code
+    f684a600-12cd-4a33-8d5b-a624d5622d5a: 'Wage Duration' # Wage Duration
+    f8414a07-7dc3-4a5c-be89-7a187fdb9691: 'Work Schedule Information' # Work Schedule Information
     f89601e9-4ba9-4a48-9e99-350aa9914912: plugindev # plugindev
     fb3a8f31-d1cc-4c13-903b-a501f7e51f54: Homepage # Homepage
+    fea43936-e48b-424e-bb75-5d6fb38cb641: Sectors # Sectors
+plugins:
+  ats:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      atsAccesToken: ''
+      atsEndpoint: ''
+      atsProvider: pratoFlex
+      autoSyncJobs: true
+      communicationTypeHandle: communication
+      contactsHandle: contacts
+      contractTypeHandle: contractTypes
+      drivingLicenseHandle: drivingLicenses
+      jobsHandle: jobs
+      mapboxApiKey: $MAPBOX_API_KEY
+      officeHandle: offices
+      placesHandle: places
+      provincesHandle: provinces
+      sectorHandle: sectors
+      shiftHandle: shifts
+      workRegimeHandle: workRegimes
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  colour-swatches:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.4.3
+  typesense:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      apiKey: $TYPESENSE_API_KEY
+      cluster: $TYPESENSE_CLUSTER
+      clusterPort: '443'
+      collections:
+        -
+          __assoc__:
+            -
+              - indexName
+              - playground_blog
+            -
+              - section
+              - blog.blog
+            -
+              - schema
+              -
+                __assoc__:
+                  -
+                    - name
+                    - playground_blog
+                  -
+                    - section
+                    - blog.blog
+                  -
+                    - fields
+                    -
+                      -
+                        __assoc__:
+                          -
+                            - name
+                            - id
+                          -
+                            - type
+                            - string
+                      -
+                        __assoc__:
+                          -
+                            - name
+                            - url
+                          -
+                            - type
+                            - string
+                      -
+                        __assoc__:
+                          -
+                            - name
+                            - title
+                          -
+                            - type
+                            - string
+                          -
+                            - sort
+                            - true
+                      -
+                        __assoc__:
+                          -
+                            - name
+                            - post_date_timestamp
+                          -
+                            - type
+                            - string
+                          -
+                            - sort
+                            - true
+                  -
+                    - default_sorting_field
+                    - post_date_timestamp
+            -
+              - elementType
+              - craft\elements\Entry
+            -
+              - criteria
+              -
+                __assoc__:
+                  0:
+                    - select
+                    -
+                      __assoc__:
+                        -
+                          - '**'
+                          - '**'
+                  2:
+                    - distinct
+                    - false
+                  15:
+                    - orderBy
+                    -
+                      -
+                        __assoc__:
+                          -
+                            - expression
+                            - ''
+                  17:
+                    - emulateExecution
+                    - false
+                  18:
+                    - elementType
+                    - craft\elements\Entry
+                  20:
+                    - inReverse
+                    - false
+                  21:
+                    - asArray
+                    - false
+                  22:
+                    - ignorePlaceholders
+                    - false
+                  23:
+                    - drafts
+                    - false
+                  24:
+                    - provisionalDrafts
+                    - false
+                  28:
+                    - savedDraftsOnly
+                    - false
+                  29:
+                    - revisions
+                    - false
+                  36:
+                    - fixedOrder
+                    - false
+                  37:
+                    - status
+                    -
+                      - live
+                  38:
+                    - archived
+                    - false
+                  39:
+                    - trashed
+                    - false
+                  42:
+                    - siteId
+                    -
+                      - 1
+                      - 2
+                  43:
+                    - unique
+                    - false
+                  45:
+                    - leaves
+                    - false
+                  57:
+                    - eagerly
+                    - false
+                  58:
+                    - withStructure
+                    - false
+                  73:
+                    - sectionId
+                    -
+                      - 6
+                  86:
+                    - hasMethods
+                    - true
+                  87:
+                    - canSetProperties
+                    - true
+      nearestNode: $TYPESENSE_NEAREST
+      pluginName: Typesense
+      port: '443'
+      protocol: http
+      searchOnlyApiKey: $TYPESENSE_SEARCH_ONLY_API_KEY
+      server: 0.0.0.0
+      serverType: cluster
 system:
   edition: pro
   live: true

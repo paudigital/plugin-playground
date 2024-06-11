@@ -11,12 +11,19 @@
 namespace modules\sitemodule;
 
 use Craft;
+use craft\base\Element;
+use craft\events\ModelEvent;
+use craft\events\PluginEvent;
 use craft\events\RegisterTemplateRootsEvent;
 use craft\events\TemplateEvent;
 use craft\i18n\PhpMessageSource;
 use craft\log\StreamLogTarget;
+use craft\services\Plugins;
 use craft\web\twig\variables\CraftVariable;
 use craft\web\View;
+use craftpulse\ats\Ats;
+use craftpulse\ats\services\CleanUpService;
+use craftpulse\ats\services\JobService;
 use modules\sitemodule\assetbundles\sitemodule\SiteModuleAsset;
 use modules\sitemodule\services\Helper;
 use modules\sitemodule\variables\SiteVariable;
@@ -85,6 +92,25 @@ class SiteModule extends Module
      */
     public function init()
     {
+        Event::on(
+            Plugins::class,
+            Plugins::EVENT_AFTER_SAVE_PLUGIN_SETTINGS,
+            function(PluginEvent $event) {
+                $jobService = new JobService();
+                $jobService->fetchJobs();
+
+                $cleanUpService = new CleanUpService();
+                $cleanUpService->removeUnusedJobCategories();
+            }
+        );
+
+        // $contractType = $jobService->getContractTypeByTitle($mocking->contracttype);
+
+        // if (is_null($contractType)) {
+        //     Craft::dd($jobService->upsertContractType($mocking->contracttype));
+        // }
+
+
         // parent::init();
         // self::$instance = $this;
 

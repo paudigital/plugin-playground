@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: shiftCategory
+instructions: null
+name: Shift
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:40f23740-adae-419f-92cf-3076dba99ddc' # Shifts
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

@@ -1,0 +1,131 @@
+color: null
+fieldLayouts:
+  6d150ec5-8e85-461f-9d4f-599d62c122cd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a2239b40-74d0-4375-8a7f-91c5af6375b6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2184d57c-c955-4db7-b0ab-0301bd12df80 # Standfirst
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e34d66b-1067-4074-b776-8a5781a31a89
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 516fb4d9-8db4-43e0-8342-88ceb985d624 # Communication
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a91b202e-9153-4a5c-a2dd-e4bb963bafb4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d5ab7172-0900-47c7-be57-71757f93bf52
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ac54d7eb-2094-4ee0-a4a4-c5e68c2c70b5 # INSS
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3cfdfb32-4cab-4afc-bae2-5cc60e83ad81
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 42de390c-c029-43e3-befc-1e74c0346fc9 # Contact ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8807af4-acf2-4c2a-ae78-292e95d420ef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cff2482c-5258-4e5a-8b16-09f4bcdf9e53 # Branch ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 70fad03e-a1f2-4db4-8089-35b6e7a98f95
+            userCondition: null
+            warning: null
+            width: 100
+        name: ATS
+        uid: 074e6912-5c5b-4359-9c6d-54fd7c1d13aa
+        userCondition: null
+handle: go4JobsContact
+hasTitleField: true
+icon: ''
+name: 'Go4Jobs Contact'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

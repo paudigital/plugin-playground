@@ -1,0 +1,54 @@
+columnSuffix: null
+handle: communicationType
+instructions: null
+name: 'Communication Type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Other
+        -
+          - value
+          - other
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Phone
+        -
+          - value
+          - phone
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Email
+        -
+          - value
+          - email
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Whatsapp
+        -
+          - value
+          - whatsapp
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

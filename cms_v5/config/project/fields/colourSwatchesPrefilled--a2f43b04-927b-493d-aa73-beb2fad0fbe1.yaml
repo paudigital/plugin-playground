@@ -1,0 +1,42 @@
+columnSuffix: null
+handle: colourSwatchesPrefilled
+instructions: null
+name: 'Colour Swatches - Prefilled'
+searchable: false
+settings:
+  default: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Color 1'
+        -
+          - color
+          - '#FFF000'
+        -
+          - default
+          - ''
+        -
+          - class
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Color 2'
+        -
+          - color
+          - '#000FFF'
+        -
+          - default
+          - ''
+        -
+          - class
+          - ''
+  palette: null
+  setRandom: false
+  useConfigFile: false
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\colourswatches\fields\ColourSwatches

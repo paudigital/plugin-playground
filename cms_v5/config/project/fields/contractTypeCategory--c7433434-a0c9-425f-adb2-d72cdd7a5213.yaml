@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: contractTypeCategory
+instructions: null
+name: 'Contract Type'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:20a39208-57db-4e04-9c1c-6ecf561ccacc' # Contract Types
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

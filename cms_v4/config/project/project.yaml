@@ -1,4 +1,4 @@
-dateModified: 1712060719
+dateModified: 1715338959
 email:
   fromEmail: andrew@nystudio107.com
   fromName: Craft
@@ -37,9 +37,14 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0
+  typesense:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   vizy:
     edition: standard
     enabled: true
+    licenseKey: XF0MU5QTBN7K95EKRG3Q077G
     schemaVersion: 0.9.0
 system:
   edition: pro

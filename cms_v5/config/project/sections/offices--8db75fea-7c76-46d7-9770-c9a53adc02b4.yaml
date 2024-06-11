@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 170164cc-e2b7-4040-9aa6-a4443bfb623b # Offices
+handle: offices
+maxAuthors: 1
+name: Offices
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # English
+    enabledByDefault: true
+    hasUrls: true
+    template: offices/_entry
+    uriFormat: 'offices/{slug}'
+type: channel

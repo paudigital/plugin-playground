@@ -1,0 +1,53 @@
+defaultPlacement: end
+fieldLayouts:
+  90ae03dd-5469-42e7-9449-42117c45ac52:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 50fb3801-ae47-4c85-b0d3-ff4079210465
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 7d686501-3026-4cf5-a17f-b0f279bcdd4b
+        userCondition: null
+handle: provinces
+name: Provinces
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # English
+    hasUrls: false
+    template: null
+    uriFormat: null
+  ec473f07-152f-423b-90df-ac425e6068a1: # Spanish
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: f7939bd2-270f-40f4-a9cd-89e05751f278

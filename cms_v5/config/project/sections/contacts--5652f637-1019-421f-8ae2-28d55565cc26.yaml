@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 0f022eb9-698f-4284-a4d4-15af69df177c # Go4Jobs Contact
+handle: contacts
+maxAuthors: 1
+name: 'Go4Jobs Contacts'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # English
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

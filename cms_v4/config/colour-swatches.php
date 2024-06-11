@@ -6,7 +6,7 @@ return [
         'Tailwind' => [  // custom label (required)
             [
                 'label'   => 'Red', // custom label (required)
-                'default' => true,  // default could be true/false (option is required)
+                'default' => false,  // default could be true/false (option is required)
                 'color'   =>  [
                     [
                         'color'             => '#ef4444',               // the colour shown in the fieldtype (required)
@@ -19,7 +19,7 @@ return [
             ],
             [
                 'label'   => 'Amber',
-                'default' => false,
+                'default' => true,
                 'color'   =>  [
                     [
                         'color'             => '#f59e0b',               

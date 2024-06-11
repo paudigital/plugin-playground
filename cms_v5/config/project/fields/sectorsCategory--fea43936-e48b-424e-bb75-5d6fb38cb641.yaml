@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: sectorsCategory
+instructions: null
+name: Sectors
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:9e969682-5f83-4de9-8bab-79c7fa58d7f3' # Sectors
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

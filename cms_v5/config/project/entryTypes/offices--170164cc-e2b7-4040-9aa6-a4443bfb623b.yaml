@@ -1,0 +1,247 @@
+color: null
+fieldLayouts:
+  26a4a41d-f9c7-4eb5-b522-6509f062dfbc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 45e5fb76-8903-4c11-90e9-78d8358ee898
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3e77369f-82e7-4d49-a2e9-20d675e95231 # Tax Number
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7d2c2b5-b1b5-4547-b56f-ed7747d8c022
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a3792af4-5f04-43ef-9d4b-f91a0523dec0 # Registration Number
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2875d9ea-ab3b-4b1a-9b2a-ab34e18f566c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1181677e-5ed7-416b-bafd-842f21871714 # Company Number
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5edd5ce-95de-41cf-b42b-3d8d504d8e27
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3d3b02a1-219d-495c-88a7-4e5ff522982b # Job Advisor
+            handle: contact
+            includeInCards: false
+            instructions: null
+            label: Contact
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a7f7d3fc-71c7-4410-b77c-eecede639597
+            userCondition: null
+            warning: null
+            width: 100
+        name: Office
+        uid: 276ff5b0-01b8-42ae-8aca-ef52f2726a47
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cff2482c-5258-4e5a-8b16-09f4bcdf9e53 # Branch ID
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64d7ed62-8685-4246-b69c-88e79019fdf8
+            userCondition: null
+            warning: null
+            width: 100
+        name: ATS
+        uid: ce90f5eb-c0a1-4a7e-92cd-b80aa7ba33b3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 720a636a-c172-4491-98ef-3b492610c367 # Street + number
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a4f248e-a7bf-49de-bc42-e77e9c4105e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 577cf0c5-524c-472b-9ccd-7f45c229acd5 # Mailbox
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48a3e6d6-2070-4f93-a3f7-cf4c950c2678
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f17c5702-849e-42ae-8ed0-c460636d9cc7 # Post Code
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 72e36577-bae7-446f-9d46-e74af7dedcc5
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 85b3f847-c856-44f9-a485-182c095e763b # City
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df64e2cf-efa8-47dd-9691-79f6e4096d55
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: a59beaf0-f2eb-4624-b94d-06132b6f5745 # Province
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63ac1891-fe48-4b3e-b00f-f4ccc3d457a1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: fc4162a5-56c0-45f7-93a0-fdc08cec1dcf
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: bbafb19f-56e1-49ff-a111-fec4f122a1e8 # Latitude
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: facbda0c-0e61-46a6-95c6-573acbeab3e4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4d73543b-ced3-440a-b157-6f0a08aa2fa1 # Longitude
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88dd5508-9975-462e-927a-d6e997c82a32
+            userCondition: null
+            warning: null
+            width: 100
+        name: Location
+        uid: c3108f1b-f489-42ba-943a-889a37ee7cd7
+        userCondition: null
+handle: offices
+hasTitleField: true
+icon: ''
+name: Offices
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

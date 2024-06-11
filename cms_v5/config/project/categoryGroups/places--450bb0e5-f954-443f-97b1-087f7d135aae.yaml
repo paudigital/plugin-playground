@@ -1,0 +1,103 @@
+defaultPlacement: end
+fieldLayouts:
+  80abfe44-57c8-44df-af3c-8f2ec12e64d6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Place
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: abac327e-86d6-473a-9a18-7dc780c1d577
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: f17c5702-849e-42ae-8ed0-c460636d9cc7 # Post Code
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6ede7ec0-faba-4053-a342-16c673106baf
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d217d82a-2374-4e8e-acb6-7a46d694a762
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: bbafb19f-56e1-49ff-a111-fec4f122a1e8 # Latitude
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef7090dc-368f-4193-9909-2d239deee98d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 4d73543b-ced3-440a-b157-6f0a08aa2fa1 # Longitude
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 17fb819e-3c5e-4fb5-87f5-4db9d87360b2
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: c636bf5f-1261-4c9b-b992-8b8496847f30
+        userCondition: null
+handle: places
+name: Places
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # English
+    hasUrls: false
+    template: null
+    uriFormat: null
+  ec473f07-152f-423b-90df-ac425e6068a1: # Spanish
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 4722e317-b4ec-4a93-a912-b67fa337c054

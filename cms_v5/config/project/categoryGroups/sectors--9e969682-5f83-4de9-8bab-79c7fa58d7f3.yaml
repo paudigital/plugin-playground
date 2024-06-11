@@ -1,0 +1,53 @@
+defaultPlacement: end
+fieldLayouts:
+  79bceef6-66e0-416e-ac04-00127228ea17:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: d289a840-60b2-4ceb-8ac6-71686b8fdca5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 14aa5a4d-06af-452d-9017-0e563b702d5f
+        userCondition: null
+handle: sectors
+name: Sectors
+siteSettings:
+  5da841b1-ca0d-46ff-8bb1-04d6c889ac54: # English
+    hasUrls: true
+    template: null
+    uriFormat: 'sectors/{slug}'
+  ec473f07-152f-423b-90df-ac425e6068a1: # Spanish
+    hasUrls: true
+    template: null
+    uriFormat: 'sectors/{slug}'
+structure:
+  maxLevels: null
+  uid: f9c05b31-b681-4ebd-a06a-b265a54dfa19

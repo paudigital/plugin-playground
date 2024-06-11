@@ -1,7 +1,9 @@
+color: null
 fieldLayouts:
   44918e94-126a-4108-98da-1f66e19d2b2d:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +11,10 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            includeInCards: false
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -17,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -24,41 +30,57 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b2b93213-fa25-44ee-a769-aa00c11a8cbb
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 21903cb2-5b82-49ea-9766-e120d0951ea3 # Plain Text
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: abcda4a4-b1db-4677-b5d6-69588443704f
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: 4a0cb371-14a6-415d-84db-fc0512410ec8
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
+            uid: c6d28728-9454-415b-b286-a976728e0024
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: f27d2cbe-d48a-4c6c-809c-f204a8813684
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a2f43b04-927b-493d-aa73-beb2fad0fbe1 # Colour Swatches - Prefilled
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cfc1c297-689d-4381-8511-fbf8e7d21e15
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Colour Swatches'
+        uid: 7b805796-1706-445d-af61-59288732916c
+        userCondition: null
 handle: blog
 hasTitleField: true
+icon: ''
 name: Blog
-sortOrder: 1
-titleFormat: null
-titleTranslationKeyFormat: null
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

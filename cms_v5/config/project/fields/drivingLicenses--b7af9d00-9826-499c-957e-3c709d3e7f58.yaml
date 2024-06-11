@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: drivingLicenses
+instructions: null
+name: 'Driving Licenses'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:61e24bd4-2790-4249-b9f2-74eaedb5cfce' # Driving Licenses
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

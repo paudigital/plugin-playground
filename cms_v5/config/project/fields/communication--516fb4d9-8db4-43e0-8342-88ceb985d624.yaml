@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: communication
+instructions: null
+name: Communication
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 2d14a77c-056d-4454-a4da-7a67cb850181 # Communication
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

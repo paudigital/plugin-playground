@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: wageMinimum
+instructions: null
+name: 'Wage Minimum'
+searchable: false
+settings:
+  decimals: 2
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

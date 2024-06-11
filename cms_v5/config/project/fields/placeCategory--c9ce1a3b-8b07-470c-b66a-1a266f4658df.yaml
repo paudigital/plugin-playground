@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: placeCategory
+instructions: null
+name: Place
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Add a Place'
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:450bb0e5-f954-443f-97b1-087f7d135aae' # Places
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories
