@@ -1,4 +1,4 @@
-dateModified: 1717753536
+dateModified: 1718111589
 elementSources:
   craft\elements\Entry:
     -
@@ -21,9 +21,8 @@ elementSources:
       key: 'section:5652f637-1019-421f-8ae2-28d55565cc26' # Go4Jobs Contacts
       tableAttributes:
         - postDate
-        - expiryDate
+        - dateUpdated
         - authors
-        - link
         - 'field:ac54d7eb-2094-4ee0-a4a4-c5e68c2c70b5' # INSS
       type: native
     -
